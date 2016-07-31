@@ -71,8 +71,9 @@ body{
 	padding: 0;
 	color: #333333;
 	font-size: 14px;
-	background: #fff;
+	background: #EEEEEE;
 	position: relative;
+	font-family: Josefin Sans;
 }
 
 a{
@@ -98,7 +99,7 @@ section{
 }
 
 .no-padding{
-	padding: 0;
+	padding: 0an;
 }
 
 .gap-80 {
@@ -141,14 +142,14 @@ ul{
 ================================================== */
 
 body, p{
-	font-family: 'Droid Serif', serif;
+	font-family: 'Josefin Sans', serif;
 	font-weight: 400; 
 	font-size: 14px;
 	line-height: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
 }
 
 h1{
@@ -190,9 +191,9 @@ h5{
 	-o-transition: all .3s ease ;
 	transition: all .3s ease-in-out ;
 	margin: 10px 0px;
-	text-transform: uppercase;
 	background: transparent;
 	font-size: 16px;
+	font-family: Josefin Sans;
 }
 .btn-main:hover{
 	color: #fff;
@@ -201,12 +202,12 @@ h5{
 	border: 1px solid#fff;
 	padding: 12px 32px;
 	font-weight: 700;
+	font-family: Josefin Sans;
 	border-radius: 0px;
 	-webkit-transition: all .3s ease;
 	-o-transition: all .3s ease ;
 	transition: all .3s ease-in-out ;
 	margin: 10px 0px;
-	text-transform: capitalize;
 	background: transparent;
 	font-size: 16px;
 }
@@ -543,36 +544,44 @@ h5{
 .carousel .item.active .animated2{
 	-webkit-animation: lightSpeedIn 1s ease-in 200ms both;
 	animation: lightSpeedIn 1s ease-in 200ms both;
+	color: #F89406;
 }
 
 .carousel .item.active .animated3 {
 	-webkit-animation: bounceInLeft 2s ease-in-out 800ms both;
 	animation: bounceInLeft 1.5s ease-in-out 800ms both;
+	color: #F89406;
+	font-family: Josefin Sans Bold;
 }
 
 .carousel .item.active .animated4 {
 	-webkit-animation: flipInX 2s ease-in 800ms both;
 	animation: flipInX 2s ease-in 800ms both;
+	color: #F64747;
 }
 
 .carousel .item.active .animated5 {
 	-webkit-animation: bounceInLeft 1s ease-in-out 100ms both;
 	animation: bounceInLeft 1s ease-in-out 100ms both;
+	color: #F64747;
 }
 
 .carousel .item.active .animated6{
 	-webkit-animation: bounceIn 1s ease-in 500ms both;
 	animation: bounceIn 1s ease-in 500ms both;
+	color: #F64747;
 }
 
 .carousel .item.active .animated7{
 	-webkit-animation: bounceIn 1s ease-in 500ms both;
 	animation: bounceIn 1s ease-in 500ms both;
+	color: #F64747;
 }
 
 .carousel .item.active .animated8{
 	-webkit-animation: bounceInDown 1s ease-in 800ms both;
 	animation: bounceInDown 1s ease-in 800ms both;
+	color: #F64747;
 }
 
 /* Profile section 
